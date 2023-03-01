@@ -8,6 +8,7 @@ import { postData } from 'utils/helpers';
 
 import { User } from '@supabase/supabase-js';
 import { withPageAuth } from '@supabase/auth-helpers-nextjs';
+import * as console from 'console';
 
 interface Props {
   title: string;
